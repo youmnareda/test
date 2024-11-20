@@ -1,0 +1,29 @@
+  <section class="card-img">
+    <div class="sec1">
+      <div class="container text-lg-lift">
+
+<div class="box">
+  <div class="row" *ngIf="!loading">
+    <div class="col-md-4 col-sm-12">
+      <img src="{{data.image}}" alt="" class="img-fluid">
+    </div>
+    <div class="col-md-8 col-sm-12">
+      <div class="info">
+        <ul class="list1" >
+          <li><a class="list2">Title: </a>{{data.title}}</li>
+          <li><a class="list2">Category: </a>{{data.category}}</li>
+          <li><a class="list2">Description: </a>{{data.description}}</li>
+          <li><a class="list2">Rate: </a>{{data.rating.rate}}</li>
+          <li><a class="list2">Count:</a>{{data.rating.count}}</li>
+          <li><a class="list2">Price: </a>{{data.price}}  L.E.</li>
+        </ul>
+    </div>
+  </div>
+  </div>
+  <div class="text-center w-100" *ngIf="loading">
+    <app-spinner></app-spinner>
+  </div>
+</div>
+</div>
+</div>
+</section>

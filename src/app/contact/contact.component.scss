@@ -1,0 +1,160 @@
+
+  section {
+    margin-top: 6rem;
+  }
+    
+  .image {
+    background-image:linear-gradient(0deg,rgb(1,1,1) 0%,rgba(0,0,0,0.4) 71%),url(https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-0001-c.jpg);
+    height: 400px;
+    margin-top: -150px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  /*************** sec1 ****************/
+  .info{    padding-top: 15%;}
+  @media (max-width: 992px) {
+    .info{
+      padding-top: 40% !important;
+      text-align: center !important;
+    }
+  
+  }
+  .sec1-hed1 {
+    color: #ff4955;
+    font-family: "Kaushan Script", handwriting;
+    font-size: 25px;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+  .sec1-title1 {
+    color: #ffffff;
+    font-size: 78px;
+    font-family: "League Gothic", sans-serif;
+    line-height: 0.8em;
+    text-transform: uppercase;
+    margin-top: 1.2rem;
+  }
+  /*************** sec1 ****************/
+  .line {
+    width: 5%;
+    height: 2px;
+    border: 0 none;
+    margin: 50px auto 90px auto;
+    background-color: #ff4955;
+  }
+  /*************** sec2 ****************/
+  hr{
+    color: #ffffff;
+    max-width: 90%;
+  }
+  .add{
+    display: flex;
+  }
+  .sec2 ul li{
+    margin-left: 20px;
+  }
+  .name1{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "League Gothic", sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+   
+  }
+  .form-label{
+    color: #cfcfcf;
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 1rem;
+  }
+  .form-text{
+    color: #c5c4c4;
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+  }
+  .des{
+    font-family: "Manrope", sans-serif;
+    color: #cfcfcf;
+    font-size: 17px;
+  }
+  .sec2-hed{
+    color: #ffffff;
+    font-size: 78px;
+    font-family: "League Gothic", sans-serif;
+    line-height: 0.8em;
+    text-transform: uppercase;
+    margin-top: 1.2rem;
+  }
+  .sec2-prg{
+    font-family: "Manrope", sans-serif;
+    color: #cfcfcf;
+    font-size: 17px;
+    max-width: 90%;
+  }
+  .form-control{
+    padding: 15px;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    
+  }
+  button{
+    color: #ffffff;
+    background-color: #ff4955;
+    font-family: "League Gothic", sans-serif;
+    border: none;
+    padding: 17px 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  
+  }
+  /*************** sec6 ****************/
+  .sec6 .card-img {
+    height: 100vh;
+  }
+  .sec6 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec6-hed {
+    color: #ff4955;
+    font-family: "Kaushan Script", handwriting;
+    font-size: 25px;
+  }
+  .sec6-title {
+    color: #ffffff;
+    font-size: 78px;
+    font-family: "League Gothic", sans-serif;
+    padding-bottom: 1rem;
+    line-height: 1em;
+  }
+  .sec6-prg {
+    font-family: "Manrope", sans-serif;
+    color: #c3c3c3;
+  }
+  .sec6 button {
+    color: #ffffff;
+    background-color: #ff4955;
+    font-family: "League Gothic", sans-serif;
+    border: none;
+    padding: 16px;
+    font-size: 10px 20px 20px 10px;
+    letter-spacing: 3px;
+  }
+  .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.577);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  span {
+    color: #ff4955;
+  }
+  i{font-size: 2rem !important;}
