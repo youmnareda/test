@@ -1,0 +1,68 @@
+.item {
+  width: 100%;
+  text-decoration: none;
+  color: #333;
+  margin: 15px 0 15px 0;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .body {
+    padding-top: 0;
+  }
+  p {
+    margin: 10px 0;
+    height: 100px;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+  h4 {
+    overflow: hidden;
+    height: 50px;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #eee;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  &:hover {
+    transform: scale(1.05);
+  }
+  span {
+    color: #eee;
+  }
+}
+
+.product-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 770px) {
+  .item {
+    width: 85%;
+    display: block;
+    margin: 4% auto;
+  }
+}
+
+.list2{
+  font-family: "Kaushan Script", handwriting;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: red;
+
+
+}
+.list1{
+  font-family: "League Gothic", sans-serif;
+  font-size: 22px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: white;
+}

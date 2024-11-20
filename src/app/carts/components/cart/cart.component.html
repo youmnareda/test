@@ -1,0 +1,69 @@
+<div class="image">
+  <div>
+    <div class="sec1">
+      <div class="container  text-lg-center">
+        <div class=" col-ms-12 col-lg-12 info ">
+          <h3 class="sec1-title1">Cart</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="line">
+</div>
+
+
+<div class="container">
+  <table id="cart" class="table table-hover table-condensed">
+    <thead>
+      <tr>
+        <th style="width:50%">Product</th>
+        <th style="width:10%">Price</th>
+        <th style="width:8%">Quantity</th>
+        <th style="width:22%" class="text-center">Subtotal</th>
+        <th style="width:10%"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of cartProducts; let index = index">
+        <td data-th="Product">
+          <div class="row">
+            <div class="col-sm-4 hidden-xs"><img src="{{item.item.image}}" alt="..." class="img-responsive" />
+            </div>
+            <div class="col-sm-8">
+              <h4 class="nomargin">{{item.item.title}}</h4>
+
+            </div>
+          </div>
+        </td>
+        <td data-th="Price">{{item.item.price}} L.E</td>
+        <td data-th="Quantity">
+          <div class="d-flex">
+            <button class="btn btn-dark" (click)="minusAmount(index)">-</button>
+            <input type="number" class="form-control text-center" (change)="detectChange()" [(ngModel)]="item.quantity"
+              value="{{item.quantity}}">
+            <button class="btn btn-dark" (click)="addAmount(index)">+</button>
+          </div>
+
+        </td>
+        <td data-th="Subtotal" class="text-center">{{item.item.price * item.quantity}} L.E</td>
+        <td class="actions" data-th="">
+          <button class="btn btn-danger btn-sm" (click)="deleteItem(index)"><i class="fa fa-trash-o"></i></button>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="visible-xs">
+        <td class="text-center"><strong>{{total}}L.E</strong></td>
+      </tr>
+      <tr>
+        <td class="toShop"><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a>
+        </td>
+        <td colspan="2" class="hidden-xs"></td>
+        <td class="hidden-xs text-center"><strong>Total {{total}}L.E</strong></td>
+        <td><button class="btn btn-block" (click)="addCart()">Order Now <i class="fa fa-angle-right"></i></button></td>
+      </tr>
+      <p class="alert alert-success" *ngIf="success">Well done! you
+        order has been sent</p>
+    </tfoot>
+  </table>
+</div>

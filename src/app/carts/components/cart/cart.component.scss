@@ -1,0 +1,114 @@
+body {
+  background: #eecda3;
+  background: -webkit-linear-gradient(to right, #eecda3, #ef629f);
+  background: linear-gradient(to right, #eecda3, #ef629f);
+  min-height: 100vh;
+}
+
+img{
+  max-width: 50%;
+}
+
+.form-control{width: auto !important;}
+
+h4{font-size: 14px !important; margin-top: 12%;}
+
+table{margin-top: 5%;}
+--bs-table-bg{background-color: black !important;}
+.alert{
+  text-align: center;
+    margin: 15% 90%;
+    width: 100%;
+    margin-bottom: -3%;
+}
+.image {
+  background-image:linear-gradient(0deg,rgb(1,1,1) 0%,rgba(0,0,0,0.4) 71%),url(https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-0001-c.jpg);
+  height: 400px;
+  margin-top: -150px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: scroll;
+}
+/*************** sec1 ****************/
+.info{    padding-top: 15%;}
+
+  @media (max-width: 992px) {
+    .info{
+      padding-top: 40% !important;
+      text-align: center !important;
+    }
+    .card{
+      background-color: black;
+    color: white;
+}
+
+.form-control{width: 50px !important;}
+
+
+    }
+    @media (max-width: 1200px) {
+      .alert{
+        margin: 15% 112%;
+        margin-bottom: -3%;
+
+      }
+    }
+
+    @media (max-width: 992px) {
+      .alert{
+        margin: 15% 87%;
+        margin-bottom: -3%;
+
+      }
+    }
+
+    @media (max-width: 770px) {
+      .alert{
+        margin: 15% 128%;
+        margin-bottom: -3%;
+
+      }
+    }
+
+.sec1-hed1 {
+  color: #ff4955;
+  font-family: "Kaushan Script", handwriting;
+  font-size: 25px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.sec1-title1 {
+  color: #ffffff;
+  font-size: 78px;
+  font-family: "League Gothic", sans-serif;
+  line-height: 0.8em;
+  text-transform: uppercase;
+  margin-top: 1.2rem;
+}
+
+.table>:not(caption)>*>* {
+  background-color: black;
+color: white;
+}
+
+table{
+  margin-bottom: 7%;
+
+}
+tbody{
+  vertical-align: middle;
+}
+
+.btn{
+  background-color:#ff4955;
+  border: none;
+}
+
+.toShop:hover a{
+  color: white;
+}
+
+.table>:not(caption)>*>* {
+text-align: center;  
+}

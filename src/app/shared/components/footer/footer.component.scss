@@ -1,0 +1,26 @@
+footer ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .sec7 {
+    border-top: 1px solid #a7a7a7;
+    padding: 20px;
+  }
+  ul li a {
+    color: rgb(207 207 207);
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+  }
+  .foot {
+    color: rgb(207 207 207);
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+  }
+  
+
+  @media (max-width: 992px) {
+   footer{
+    text-align: center;
+   }
+  }

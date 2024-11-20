@@ -1,0 +1,82 @@
+.image {
+  background-image:linear-gradient(0deg,rgb(1,1,1) 0%,rgba(0,0,0,0.4) 71%),url(https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-0001-c.jpg);
+  height: 400px;
+  margin-top: -150px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: scroll;
+}
+/*************** sec1 ****************/
+.info{    padding-top: 20%;
+}
+@media (max-width: 992px) {
+  .info{
+    padding-top: 40% !important;
+    text-align: center !important;
+  }
+
+}
+.sec1-hed1 {
+  color: #ff4955;
+  font-family: "Kaushan Script", handwriting;
+  font-size: 25px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.sec1-title1 {
+  color: #ffffff;
+  font-size: 78px;
+  font-family: "League Gothic", sans-serif;
+  line-height: 0.8em;
+  text-transform: uppercase;
+  margin-top: 1.2rem;
+}
+
+.info, .box .row .col-md-3 {
+  max-width: 100%;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 770px) {
+  .box .row .col-md-3 {
+    width: 100%; /* Full width for product items on small screens */
+  }
+  .box .my-2 {
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+}
+.list2{
+  font-family: "Kaushan Script", handwriting;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: red;
+
+
+}
+.list1{
+  font-family: "League Gothic", sans-serif;
+  font-size: 22px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+
+.card-img {
+  background-image: linear-gradient(0deg, rgb(1, 1, 1) 0%, rgba(0, 0, 0, 0.4) 71%), url(https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-0001-c.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: scroll;
+  }
+  .sec2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }

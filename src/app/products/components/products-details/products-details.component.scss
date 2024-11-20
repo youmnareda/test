@@ -1,0 +1,50 @@
+.box {
+  width: 100%;
+  margin: 100px auto;
+  ul {
+    li {
+      font-size: 22px;
+      margin: 20px auto;
+    }
+  }
+  img {
+        width: 100%;
+    max-height: 500px;
+    min-height: 400px;
+    border-radius: 20px;
+
+  }
+}
+.list1{
+  font-family: "League Gothic", sans-serif;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: white;
+}
+.list2{
+  font-family: "League Gothic", sans-serif;
+  font-size: 22px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: yellow;
+  list-style-type:none;
+  text-decoration: wavy;
+
+}
+.card-img {
+  background-image: linear-gradient(0deg, rgb(1, 1, 1) 0%, rgba(0, 0, 0, 0.4) 71%), url(https://websitedemos.net/black-friday-04/wp-content/uploads/sites/1419/2023/11/bg-0001-c.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: scroll;
+
+  }
+  .sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  

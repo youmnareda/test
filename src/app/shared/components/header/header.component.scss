@@ -1,0 +1,28 @@
+.nav-item{
+  &:hover a{
+    color: #ff4955 !important;
+  }
+}
+.nav-link {
+  color: white !important;
+  font-size: 25px;
+  
+}
+
+.navbar-toggler{
+  color: white;
+  background-color: white;
+  
+}
+
+.nav-link.active {
+  color: #ff4955 !important; /* Change the color to red */
+}
+
+
+@media (max-width: 992px) {
+  nav{
+    z-index: 1000;
+    background-color: black;
+  }
+ }
